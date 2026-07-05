@@ -13,8 +13,14 @@ header {
 }
 
 /* AQUÍ: Cada estudiante debe agregar sus estilos para su tarjeta y cambios de color global */
+/* parte B */
+
 #contenedor-destacados { 
     display: flex; 
+    /* Cambios solicitados por Estudiante B */
+    flex-direction: column; 
+    background-color: lightgreen;
+    
     gap: 20px; 
     padding: 20px;
 }
