@@ -4,23 +4,39 @@ body {
     line-height: 1.6; 
     margin: 0;
     padding: 0;
+    background-color: lightblue; /* Fondo global cambiado */
 }
 
 header { 
     background: #333; 
     color: white; 
     padding: 1rem; 
+    text-align: center;
 }
 
-/* AQUÍ: Cada estudiante debe agregar sus estilos para su tarjeta y cambios de color global */
+h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+/* Layout con Grid para las tarjetas de habilidades */
 #contenedor-destacados { 
-    display: flex; 
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
     gap: 20px; 
-    padding: 20px;
+    padding: 20px 0;
 }
 
 .card {
+    background: #fff; /* Fondo blanco para que resalte sobre el fondo celeste */
     border: 1px solid #ccc;
-    padding: 10px;
+    padding: 15px;
     border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #333;
 }
