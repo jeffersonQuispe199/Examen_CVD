@@ -14,6 +14,7 @@ header {
     text-align: center;
 }
 
+<<<<<<< HEAD
 h2 {
     color: #333;
     border-bottom: 2px solid #333;
@@ -24,6 +25,17 @@ h2 {
 #contenedor-destacados { 
     display: grid; 
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+=======
+/* AQUÍ: Cada estudiante debe agregar sus estilos para su tarjeta y cambios de color global */
+/* parte B */
+
+#contenedor-destacados { 
+    display: flex; 
+    /* Cambios solicitados por Estudiante B */
+    flex-direction: column; 
+    background-color: lightgreen;
+    
+>>>>>>> 92bf90d86cc441c60b8cfb0619647a0e6ae9d94f
     gap: 20px; 
     padding: 20px 0;
 }
@@ -33,10 +45,13 @@ h2 {
     border: 1px solid #ccc;
     padding: 15px;
     border-radius: 5px;
+<<<<<<< HEAD
     box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
 .card h3 {
     margin-top: 0;
     color: #333;
+=======
+>>>>>>> 92bf90d86cc441c60b8cfb0619647a0e6ae9d94f
 }
